@@ -6,6 +6,8 @@
       "es2020",
       "dom"
     ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true, 
     "declaration": true,
     "strict": true,
     "noImplicitAny": true,
@@ -29,6 +31,7 @@
     "cdk.out"
   ],
   "include": [
+    "src/**/*.ts",
     "shared/*.json"
   ],
 }
