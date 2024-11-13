@@ -47,16 +47,31 @@ AWS credentials configured for CDK deployment
 ## Getting Started
 
 # Install dependencies:
+```plaintext
+
 npm install
+
+```
+
 Build the project:
 Compile TypeScript to JavaScript.
 
+```plaintext
+
 npm run build
+
+```
+
 Deploy the stack:
 Deploys all resources defined in the CDK app to your AWS account.
 
+```plaintext
+
 cdk deploy
-# Seeding Data:
+
+```
+
+Seeding Data:
 The dbInitData custom resource seeds the DynamoDB BooksTable with initial data from seed/books.json.API Endpoints
 
 ## API Endpoints
