@@ -1,6 +1,6 @@
-# Welcome to your CDK TypeScript project
+# Welcome to my CDK TypeScript project
 
-This is a blank project for CDK development with TypeScript.
+This is a book management project for CDK development with TypeScript.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
@@ -37,14 +37,14 @@ This project is a serverless API for managing a collection of books and translat
     ├── auth.ts                   # Utility functions for authentication
     └── utils.ts                  # General utility functions
 
-Requirements
+## Requirements
 
 Node.js (version 16.x recommended)
 AWS CDK
 AWS credentials configured for CDK deployment
-Getting Started
+## Getting Started
 
-Install dependencies:
+# Install dependencies:
 npm install
 Build the project:
 Compile TypeScript to JavaScript.
@@ -54,11 +54,13 @@ Deploy the stack:
 Deploys all resources defined in the CDK app to your AWS account.
 
 cdk deploy
-Seeding Data:
-The dbInitData custom resource seeds the DynamoDB BooksTable with initial data from seed/books.json.
-API Endpoints
+# Seeding Data:
+The dbInitData custom resource seeds the DynamoDB BooksTable with initial data from seed/books.json.API Endpoints
+
+## API Endpoints
 
 The API has endpoints for managing books, translations, and user authentication.
+
 
 ## Book Management
 
@@ -79,16 +81,16 @@ The API has endpoints for managing books, translations, and user authentication.
 | `/auth/signout`    | `POST` | Sign out a user        |
 | `/auth/confirm-signup` | `POST` | Confirm user signup |
 
-###AWS Resources
+### AWS Resources
 
 The following AWS resources are created and managed by this project:
 
-###DynamoDB Tables
+### DynamoDB Tables
 
 BooksTable: Stores book details.
 TranslationsTable: Stores translations for books.
 API Gateway: REST API to interact with the books and translations.
-###Lambda Functions:
+### Lambda Functions:
 
 Book management: getAllBooksFn, getBookByIdFn, addBookFn, updateBookFn, translateBookSummaryFn
 
