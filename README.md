@@ -21,7 +21,7 @@ This project is a serverless API for managing a collection of books and translat
 ## Project Structure
 
 .
-├── README.md
+├── README.md                    # Project overview and documentation
 ├── addBook.ts                    # Lambda function to add a new book
 ├── getAllBooks.ts                # Lambda function to fetch all books
 ├── getBookById.ts                # Lambda function to fetch a book by ID
