@@ -19,6 +19,7 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 This project is a serverless API for managing a collection of books and translating book summaries, built with AWS CDK, Lambda, API Gateway, and DynamoDB. The project includes user authentication flows (signup, signin, signout, confirm signup) implemented with AWS Cognito and custom Lambda functions.
 
 ## Project Structure
+```plaintext
 
 .
 ├── README.md                    # Project overview and documentation
@@ -36,6 +37,7 @@ This project is a serverless API for managing a collection of books and translat
 └── utils/
     ├── auth.ts                   # Utility functions for authentication
     └── utils.ts                  # General utility functions
+```
 
 ## Requirements
 
